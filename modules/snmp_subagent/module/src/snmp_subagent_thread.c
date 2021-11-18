@@ -26,6 +26,7 @@
 #include <snmp_subagent/snmp_subagent_clients.h>
 #include "snmp_subagent_int.h"
 
+#include <unistd.h>
 #include <pthread.h>
 #include <signal.h>
 #include <errno.h>
